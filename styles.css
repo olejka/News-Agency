@@ -5,55 +5,55 @@ html, body {
   font-family: Arial;
 }
 
-h1 {
-  font-weight: normal; 
-  font-size: 16px
-}
-
-h2 {
-  font-size: 20px;
-  padding: 27px 0 27px 18px;
-  margin: 0 0 30px;
-  line-height: 15px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-footer {
-  background-color: #00122f;
-  padding-top: 57px;
-}
-
-.black-bar {
-  background-color: #00122f;
-  color: white;
-  padding: 20px 0;
-  font-size: 16px;
-}
-
-.black-bar a {
-  color: white;
-}
-
-.menu-container {
-  width: 1000px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.fixed-container {
-  width: 1000px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.time {
-  padding-top: inherit;
-  float: right;
-}
-
 .header {
   height: 233px;
 }
+
+  h1 {
+    font-weight: normal; 
+    font-size: 16px
+  }
+
+  h2 {
+    font-size: 20px;
+    padding: 27px 0 27px 18px;
+    margin: 0 0 30px;
+    line-height: 15px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  footer {
+    background-color: #00122f;
+    padding-top: 57px;
+  }
+
+  .black-bar {
+    background-color: #00122f;
+    color: white;
+    padding: 20px 0;
+    font-size: 16px;
+  }
+
+  .black-bar a {
+    color: white;
+  }
+
+  .menu-container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .fixed-container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .time {
+    padding-top: inherit;
+    float: right;
+  }
 
 .clearfix:after {
   content: '';
@@ -571,3 +571,21 @@ footer {
   display: block;
   color: white;
 }
+
+.dopolnenie {
+  background-color: #f9f9f9;
+  position: relative;
+  overflow-y: hidden;
+}
+
+  .kurs-rub {
+    float: left;
+    margin-left: 89px;
+    padding-left: 400px;
+  }
+
+  .button-scroll-on-off{
+    float: right;
+    margin-right: 89px;
+    padding-right: 250px;
+  }
