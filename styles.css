@@ -577,21 +577,37 @@ footer {
 
 .dopolnenie {
   background-color: #f9f9f9;
-  /* position: relative; */
+  position: relative;
   overflow-y: hidden;
   /* display: block; */
+  /* padding-right: 250px; */
+  margin-top: 40px;
+  /* width: 1000px;
+  margin: 0 auto; */  
 }
 
 .kurs-rub  {
   float: left;
   background-color: white;
-  margin-left: 89px;
+  margin-left: 435px;
   /* padding-left: 400px; */
+  padding-right: 71px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  
+}
+
+.request-kurs {
+  /* margin-right: 5px; */
+  margin-top: 5px;
+  /* margin-left: 5px; */
+  margin-bottom: 5px;
+  
 }
 
 .button-scroll-on-off {
   float: right;
   background-color: white;
-  margin-right: 89px;
-  /* padding-right: 250px; */
+  /* margin-right: 89px; */
 }
