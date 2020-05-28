@@ -2,7 +2,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  min-width: 1000px;
   font-family: Arial;
 }
 
@@ -40,13 +39,16 @@ footer {
 }
 
 .menu-container {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   position: relative;
 }
 
 .fixed-container {
-  width: 1000px;
+  max-width: 1000px;
+  /* padding: 0, 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
   position: relative;
 }
@@ -93,6 +95,23 @@ footer {
   float: right;
   margin-top: 40px;
 }
+
+/* .searchicon {
+  float: left;
+  height: 45px;
+  width: 320px;
+  position: relative;
+}
+
+.searchicon:before{
+  content: '';
+    background:url('img/search.png');
+    background-size:cover;
+        position:absolute;
+    width:20px;
+    height:20px;
+    margin-left:-20px;
+} */
 
 .search {
   float: left;
@@ -241,7 +260,7 @@ footer {
 }
 
 .column-center {
-  width: 462px;
+  max-width: 462px;
   margin-left: 20px;
   float: left;
 }
@@ -279,7 +298,7 @@ footer {
 
 .big-news-date {
   float: left;
-  width: 108px;
+  max-width: 108px;
 }
 
 .big-news-time {
@@ -296,7 +315,7 @@ footer {
 }
 
 .news-block-item {
-  width: 220px;
+  max-width: 220px;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -338,7 +357,7 @@ footer {
 }
 
 .column-right {
-  width: 250px;
+  max-width: 250px;
   float: right;
 }
 
@@ -362,12 +381,12 @@ footer {
 .news-big-special {
   float: left;
   height: 394px;
-  width: 588px;
+  max-width: 588px;
   background-image: url('img/news-special.png');
 }
 
 .news-big-special-props {
-  width: 510px;
+  max-width: 510px;
   top: 108px;
 }
 
@@ -383,7 +402,7 @@ footer {
 
 .news-special {
   float: right;
-  width: 412px;
+  max-width: 412px;
 }
 
 .special-news-item-text {
@@ -393,7 +412,7 @@ footer {
 
 .all-news-btn {
   border: 1px solid #438ccc;
-  width: 177px;
+  max-width: 177px;
   height: 45px;
   margin: 35px auto 24px;
   position: relative;
@@ -436,7 +455,7 @@ footer {
 }
 
 .footer-nav {
-  width: 235px;
+  max-width: 235px;
   float: left;
 }
 
@@ -527,7 +546,7 @@ footer {
 
 .network-logo {
   display: inline-block;
-  width: 40px;
+  max-width: 40px;
   height: 40px;
   border: 1px solid white;
   border-radius: 21px;
@@ -621,4 +640,25 @@ footer {
   /* background-color: white; */
   /* margin-right: 89px; */
   font-size: 12px;
+}
+
+@media (max-width: 1010px) {
+  .menu {display: none;}
+  .left-header {margin-top: 20px;}
+  .right-header {margin-top: 20px;}
+  .header {height: 160px;}
+}
+
+@media (max-width: 800px) {
+  .search input {display: none; margin-top: 20px;}
+  .search {width: 30px; height: 30px;}
+  /* .searchicon {} */
+}
+
+/* Скрыть часы сверху */
+@media (max-width: 520px) {
+  .time {display: none;}
+  .city-container {display: none;}
+  .weather {margin-top: 80px; margin-left: -100px;}
+
 }
